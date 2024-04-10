@@ -15,6 +15,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.homepage-btn {
+  @apply text-xl bg-electricPurple hover:bg-nebulaBlack hover:border-offWhite text-offWhite font-medium py-2 px-4 rounded;
+}
+
+.menu-link {
+  @apply text-offWhite hover:text-neonMagenta
+}
 a {
   font-weight: 500;
   color: #646cff;
@@ -29,6 +36,7 @@ body {
   margin: 0;
   width: 100%;
   min-width: 100vw; /* Ensure it covers the full viewport width */
+  background-color: #100217
 }
 
 h1 {

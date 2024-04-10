@@ -10,7 +10,7 @@ import ExploreTools from './components/ExploreTools';
 function App() {
   return (
     <Router>
-      <>
+      <div className="bg-nebulaBlack">
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -19,7 +19,7 @@ function App() {
           <Route path="/explore-tools" element={<ExploreTools />} />
       
         </Routes>
-      </>
+      </div>
     </Router>
   );
 }
